@@ -1,0 +1,13 @@
+prefix=E:/KAGGLE_challeges/Podcast_Listening_Time/podcast/Library
+exec_prefix=E:/KAGGLE_challeges/Podcast_Listening_Time/podcast/Library
+libdir=E:/KAGGLE_challeges/Podcast_Listening_Time/podcast/Library/lib
+sharedlibdir=E:/KAGGLE_challeges/Podcast_Listening_Time/podcast/Library/lib
+includedir=E:/KAGGLE_challeges/Podcast_Listening_Time/podcast/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
